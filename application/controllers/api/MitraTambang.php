@@ -62,8 +62,8 @@ class MitraTambang extends RestController
                     'encrypt_name' => true,
                 ));
                 if (!$this->upload->do_upload('persyaratan')) {
-                    echo 'er';
-                    throw new UserException($this->upload->display_errors(), UPLOAD_FAILED_CODE);
+                    // echo 'er';
+                    // throw new UserException($this->upload->display_errors(), UPLOAD_FAILED_CODE);
                 } else {
                     echo 'ups';
                     $data_cek2 = $this->MitraTambangModel->cek($regData['token']);
