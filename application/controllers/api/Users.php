@@ -14,8 +14,8 @@ class Users extends RestController
 
     public function login_post()
     {
-        echo 'ss';
-        die();
+        // echo 'ss';
+        // die();
         $loginData['email'] = $this->post('email');
         $loginData['password'] = $this->post('password');
         // echo 'ss';
