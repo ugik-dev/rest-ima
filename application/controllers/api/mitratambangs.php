@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 use chriskacerguis\RestServer\RestController;
 
-class mitratambang extends RestController
+class MitraTambang extends RestController
 {
 
     function __construct()
